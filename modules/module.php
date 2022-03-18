@@ -10,6 +10,9 @@
                 case "contact":
                     include($dir_fs."pages/contact.php") ;
                 break;
+                case "detail":
+                    include($dir_fs."pages/detail.php") ;
+                break;
             default:
                 include($dir_fs."pages/accueil.php") ;
           
